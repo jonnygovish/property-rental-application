@@ -1,0 +1,20 @@
+{ "propertys": [{
+    "owner": "Chris Kirubi",
+    "city": "Nairobi",
+    "type": "Condo",
+    "bedrooms": "19",
+    "image": "https://moringaschool.slack.com/files/U5DDWRGGZ/F75BERPFE/apartment.jpg"
+  }, { 
+    "owner": "Gitu Mbugua",
+    "city": "Upper Hill",
+    "type": "Bongalo",
+    "bedrooms": "15",
+    "image":"https://moringaschool.slack.com/files/U5DDWRGGZ/F757KAYKD/condo.jpg"
+  }, {
+    "owner": "Apiut Toel",
+    "city": "Rongai",
+    "type": "Mansion",
+    "bedrooms": "25",
+    "image":"https://moringaschool.slack.com/files/U5DDWRGGZ/F757KCKR9/estate.jpg"
+  }]
+}

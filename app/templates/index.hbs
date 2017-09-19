@@ -1,0 +1,12 @@
+<h1>Welcome to Property Rental</h1>
+<p>Looking to buy, sell or rent property? We connect you with people and properties so you can find the freshest listings and best deals in your market. Why? We believe that the search for your next property should be simple.</p>
+<ul>
+  
+  {{#each model as |property|}}
+   {{property-tile property=property}}
+  {{/each}}
+</ul>
+
+{{#link-to 'index'}}Home{{/link-to}}
+{{#link-to 'about'}}About Us{{/link-to}}
+{{#link-to 'contact'}}Contact Us{{/link-to}}

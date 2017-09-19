@@ -15,7 +15,15 @@ module.exports = function(environment) {
       EXTEND_PROTOTYPES: {
         // Prevent Ember Data from overriding Date.parse.
         Date: false
-      }
+      },
+      firebase: {
+        apiKey: "AIzaSyARB3ei5RhfNTHeEHv3ukT-XHNaZ6GRotk",
+        authDomain: "property-rental-ede65.firebaseapp.com",
+        databaseURL: "https://property-rental-ede65.firebaseio.com",
+        projectId: "property-rental-ede65",
+        storageBucket: "property-rental-ede65.appspot.com",
+        messagingSenderId: "627319801645"
+      },
     },
 
     APP: {
